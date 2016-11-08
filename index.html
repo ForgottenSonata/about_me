@@ -1,0 +1,32 @@
+<!DOCTYPE html:5>
+<html>
+<head>
+  <title>About Me</title>
+</head>
+<body>
+  <ul>
+    <li>What is your name?</li>
+    <li>What is your favorite color?</li>
+    <li>Where are you from?</li>
+    <li>Why do you want to code?</li>
+  </ul>
+  <script>
+
+  var nameQuestionAnswer = prompt('What is your name?');
+  console.log('First question answered with: ' + nameQuestionAnswer);
+  alert('Hey ' + nameQuestionAnswer + '! That is a pretty cool name...I guess.');
+  var colorQuestionAnswer = prompt('What is your favorite color?');
+
+  console.log('Second question answered with: ' + colorQuestionAnswer);
+  alert('Hey '  + nameQuestionAnswer + ', can you be more original with a color other than that?');
+  var locationQuestionAnswer = prompt('Where are you from?');
+  console.log('Third question answered with: ' + locationQuestionAnswer);
+  alert('Hmm,I heard weirdos only live there!');
+  var codeQuestionAnswer = prompt('Why do you want to code?');
+  console.log('Fourth question answered with: ' + codeQuestionAnswer);
+  alert(nameQuestionAnswer + ' ! That is so awesome...not really. First you tell me you like '  +  colorQuestionAnswer  + 'and now you like to code because'  +  codeQuestionAnswer  +  '! You are putting me to sleep.');
+
+  </script>
+</body>
+
+</html>
