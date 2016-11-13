@@ -20,7 +20,7 @@ var thirdQuestionAnswer = prompt('Do I like to watch sports?').toLowerCase();
 if(thirdQuestionAnswer === 'no' || thirdQuestionAnswer === 'n') {
   alert(thirdQuestionAnswer + ' I do not like to watch sports, especially basketball.');}
 else if (thirdQuestionAnswer === 'yes' || thirdQuestionAnswer === 'y'){
-  alert('Sorry, but + thirdQuestionAnswer + is not the correct answer.');
+  alert(thirdQuestionAnswer + ' is an incorrect answer.' );
 }else{
   alert('You are not making any sense.');
 }
