@@ -1,16 +1,29 @@
 body {
-background-color: rgb(200, 30, 67);
+background-color: #008080;
+margin: 0 auto;
+color: brown
+
 }
 
 main{
-  width: 700px;
-  margin: 0 auto;
-  background-color: #F50;
+font-family: cursive;
+font-size: 20 px;
+background-color: #003399;
   }
 
 
  h1 {
-    background-color: rgb(200, 150, 150);
+    font-family: sans-serif;;
+    font-size: 30 px;
+    color: black;
+    width: 500px;
+    height: 500px;
+}
+
+
+ ol {
+
+    color: #009999;
     width: 300px;
     height: 300px;
 
